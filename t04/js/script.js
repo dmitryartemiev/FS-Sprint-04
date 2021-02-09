@@ -74,7 +74,7 @@ for (let name of $filmName) {
       let filmId = films[film].id;
 
       if (filmId == dataId) {
-        let actors = films[film].filmActors;
+        // let actors = films[film].filmActors;
         $filmDescContainer.innerHTML = `
           <!-- start of desc container -->
           <div class="text__container">
